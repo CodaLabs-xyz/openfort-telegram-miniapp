@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+  /* Prevent overscroll on iOS */
+  overscroll-behavior: none;
+  /* Prevent text selection for better Mini App feel */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in specific areas */
+.selectable {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Telegram Mini App safe area handling */
+@supports (padding: env(safe-area-inset-top)) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
