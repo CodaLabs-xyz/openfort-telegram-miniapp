@@ -10,7 +10,12 @@ Construye Telegram Mini Apps con creación automática de wallets Web3 usando Op
 ## 🎥 Video Tutorial
 
 Este repositorio acompaña el video tutorial de CodaLabs:
-**[Openfort + Telegram: Mini Apps con Wallets Automáticas](https://youtube.com/@CodaLabs)**
+
+<a href="https://www.youtube.com/watch?v=q_O0k88swoU">
+  <img src="https://img.youtube.com/vi/q_O0k88swoU/maxresdefault.jpg" alt="Openfort Telegram Mini App Tutorial" width="600">
+</a>
+
+▶️ **[Ver en YouTube: Openfort + Telegram - Mini Apps con Wallets Automáticas](https://www.youtube.com/watch?v=q_O0k88swoU)**
 
 ## ✨ Características
 
